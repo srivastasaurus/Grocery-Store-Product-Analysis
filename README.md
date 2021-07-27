@@ -1,7 +1,7 @@
 # Python implementation of the Apriori algorithm 
 <br />
 
-## The apriori algorithm uncovers hidden structures in categorical data. We would like to uncover association rules such as {bread, eggs} -> {bacon} from the data. This is the goal of [association rule](https://en.wikipedia.org/wiki/Association_rule_learning) learning, and the [Apriori algorithm](https://machinelearningknowledge.ai/best-explanation-of-apriori-algorithm-for-association-rule-mining/) is arguably the most famous algorithm for this problem.
+### The apriori algorithm uncovers hidden structures in categorical data. We would like to uncover association rules such as {bread, eggs} -> {bacon} from the data. This is the goal of [association rule](https://en.wikipedia.org/wiki/Association_rule_learning) learning, and the [Apriori algorithm](https://machinelearningknowledge.ai/best-explanation-of-apriori-algorithm-for-association-rule-mining/) is arguably the most famous algorithm for this problem.
 
 
 # Example 
@@ -31,3 +31,5 @@ print(rules)  # [{eggs} -> {bacon}, {soup} -> {bacon}]
 * Minimum Support : A minimum Support is applied to find all frequent itemsets in a database .
 * Minimum Confidence : A minimum confidence is applied to these frequent itemsets in order to form rules. 
 * Result : The result will show the association rules in teh given dataset with the given minimum support and minimum confidence if there are any. If there are no association rules in the set with the given support and confidence conditions , try to plug in some different ( if  you didn't get any results, try feeding some lower values) values of them .
+
+![Visu1](images/donut_chart.png)
