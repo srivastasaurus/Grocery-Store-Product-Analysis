@@ -22,6 +22,22 @@ print(rules)  # [{eggs} -> {bacon}, {soup} -> {bacon}]
 
 ## The software is available through GitHub, and through [PyPI](https://pypi.org/project/efficient-apriori/). You may install the software using pip.
 
+# IMAGES TO DISPLAY THE IMPLEMENTATION AFTER APRIORI ALGORITHM
+
+## The dataset containing the items with their likelihood of purchase .
+<p align="center">
+<img src="/images/donut_chart.png" alt="Your image title" width="250" align = "center"/> </p>
+
+## The result after considering two products at a time ( Do refer the code for the process to be used )
+
+<p align="center">
+<img src="/images/two_data.png" alt="Your image title" width="250" align = "center"/> </p>
+
+## And ,when considered four items at a time , teh likelihood of making a purchase decreased 
+
+<p align="center">
+<img src="/images/quarter_data.png" alt="Your image title" width="250" align = "center"/> </p>
+
 # Running the tests
 <br />
 
@@ -31,5 +47,4 @@ print(rules)  # [{eggs} -> {bacon}, {soup} -> {bacon}]
 * Minimum Support : A minimum Support is applied to find all frequent itemsets in a database .
 * Minimum Confidence : A minimum confidence is applied to these frequent itemsets in order to form rules. 
 * Result : The result will show the association rules in teh given dataset with the given minimum support and minimum confidence if there are any. If there are no association rules in the set with the given support and confidence conditions , try to plug in some different ( if  you didn't get any results, try feeding some lower values) values of them .
-<p align="center">
-<img src="/images/donut_chart.png" alt="Your image title" width="250" align = "center"/> </p>
+
