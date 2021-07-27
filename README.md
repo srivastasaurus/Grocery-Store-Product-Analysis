@@ -20,7 +20,7 @@ print(rules)  # [{eggs} -> {bacon}, {soup} -> {bacon}]
 
 # Installation 
 
-## The software is available through GitHub, and through [PyPI](https://pypi.org/project/efficient-apriori/). You may install the software using pip.
+### The software is available through GitHub, and through [PyPI](https://pypi.org/project/efficient-apriori/). You may install the software using pip.
 
 # IMAGES TO DISPLAY THE IMPLEMENTATION AFTER APRIORI ALGORITHM
 
@@ -38,7 +38,7 @@ print(rules)  # [{eggs} -> {bacon}, {soup} -> {bacon}]
 <p align="center">
 <img src="/images/quarter_data.png" alt="Your image title" width="250" align = "center"/> </p>
 
-# Running the tests
+## Running the tests
 <br />
 
 * The program takes data source , Minimum Support in percentage and Minimum Confidence in perecentage as input .
