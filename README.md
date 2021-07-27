@@ -32,4 +32,4 @@ print(rules)  # [{eggs} -> {bacon}, {soup} -> {bacon}]
 * Minimum Confidence : A minimum confidence is applied to these frequent itemsets in order to form rules. 
 * Result : The result will show the association rules in teh given dataset with the given minimum support and minimum confidence if there are any. If there are no association rules in the set with the given support and confidence conditions , try to plug in some different ( if  you didn't get any results, try feeding some lower values) values of them .
 
-<img src="https://github.com/images/donut_chart" alt="Your image title" width="250"/>
+<img src="https://github.com/images/donut_chart.png" alt="Your image title" width="250"/>
